@@ -108,7 +108,7 @@ function read(a)
         html+="<a href='"+a+"'>"+a+"</a><br>";
     html+="<b>"+htmlEntities(a)+"</b><br><br>";
     document.getElementById("result").innerHTML=html;
-	location.href ="http://192.168.10.250/login?username="+ a;
+	location.href =a;
 }	
 
 function isCanvasSupported(){
